@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Film List</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <!-- Ikon hamburger -->
+        <div class="humburger" onclick="toggleMenu()">
+          &#9776;
+          <!-- Ikon hamburger (3 garis) -->
+        </div>
+        <div class="logo-title">
+          <img src="img/logo ghibli.jpg" alt="Logo Jiro" class="logo" />
+          <div>
+            <h1>Jirō Horikoshi</h1>
+            <h2>堀越 二郎</h2>
+          </div>
+        </div>
+        <nav>
+          <ul id="nav-list">
+            <li><a href="./table.html">Movie List</a></li>
+            <li><a href="./login.html">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mt-5">
+      <h2 class="mb-4">Movie List</h2>
+      <table class="table table-bordered table-striped table-hover">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Judul Film</th>
+            <th>Tahun Rilis</th>
+            <th>Genre</th>
+            <th>Sutradara</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>The Godfather</td>
+            <td>1972</td>
+            <td>Crime, Drama</td>
+            <td>Francis Ford Coppola</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>The Dark Knight</td>
+            <td>2008</td>
+            <td>Action, Crime</td>
+            <td>Christopher Nolan</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Inception</td>
+            <td>2010</td>
+            <td>Sci-Fi, Thriller</td>
+            <td>Christopher Nolan</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Parasite</td>
+            <td>2019</td>
+            <td>Drama, Thriller</td>
+            <td>Bong Joon-ho</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Avengers: Endgame</td>
+            <td>2019</td>
+            <td>Action, Adventure</td>
+            <td>Anthony Russo, Joe Russo</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Spirited Away</td>
+            <td>2001</td>
+            <td>Animation, Adventure</td>
+            <td>Hayao Miyazaki</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Pulp Fiction</td>
+            <td>1994</td>
+            <td>Crime, Drama</td>
+            <td>Quentin Tarantino</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Fight Club</td>
+            <td>1999</td>
+            <td>Drama</td>
+            <td>David Fincher</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Interstellar</td>
+            <td>2014</td>
+            <td>Sci-Fi, Adventure</td>
+            <td>Christopher Nolan</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Joker</td>
+            <td>2019</td>
+            <td>Crime, Drama</td>
+            <td>Todd Phillips</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Shutter Island</td>
+            <td>2010</td>
+            <td>Thriller, Mystery</td>
+            <td>Martin Scorsese</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>Forrest Gump</td>
+            <td>1994</td>
+            <td>Drama, Romance</td>
+            <td>Robert Zemeckis</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>The Matrix</td>
+            <td>1999</td>
+            <td>Sci-Fi, Action</td>
+            <td>The Wachowskis</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>Gladiator</td>
+            <td>2000</td>
+            <td>Action, Drama</td>
+            <td>Ridley Scott</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>Saving Private Ryan</td>
+            <td>1998</td>
+            <td>Drama, War</td>
+            <td>Steven Spielberg</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>The Lord of the Rings: The Return of the King</td>
+            <td>2003</td>
+            <td>Fantasy, Adventure</td>
+            <td>Peter Jackson</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>The Shawshank Redemption</td>
+            <td>1994</td>
+            <td>Drama</td>
+            <td>Frank Darabont</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>Schindler's List</td>
+            <td>1993</td>
+            <td>Biography, Drama</td>
+            <td>Steven Spielberg</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>Goodfellas</td>
+            <td>1990</td>
+            <td>Crime, Drama</td>
+            <td>Martin Scorsese</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>Whiplash</td>
+            <td>2014</td>
+            <td>Drama, Music</td>
+            <td>Damien Chazelle</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>The Silence of the Lambs</td>
+            <td>1991</td>
+            <td>Thriller, Crime</td>
+            <td>Jonathan Demme</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>The Lion King</td>
+            <td>1994</td>
+            <td>Animation, Adventure</td>
+            <td>Roger Allers, Rob Minkoff</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>Mad Max: Fury Road</td>
+            <td>2015</td>
+            <td>Action, Adventure</td>
+            <td>George Miller</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>Blade Runner 2049</td>
+            <td>2017</td>
+            <td>Sci-Fi, Drama</td>
+            <td>Denis Villeneuve</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>Django Unchained</td>
+            <td>2012</td>
+            <td>Western, Drama</td>
+            <td>Quentin Tarantino</td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td>La La Land</td>
+            <td>2016</td>
+            <td>Drama, Musical</td>
+            <td>Damien Chazelle</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td>Her</td>
+            <td>2013</td>
+            <td>Romance, Drama</td>
+            <td>Spike Jonze</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>Logan</td>
+            <td>2017</td>
+            <td>Action, Drama</td>
+            <td>James Mangold</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>Arrival</td>
+            <td>2016</td>
+            <td>Sci-Fi, Drama</td>
+            <td>Denis Villeneuve</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>Black Panther</td>
+            <td>2018</td>
+            <td>Action, Adventure</td>
+            <td>Ryan Coogler</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>Once Upon a Time in Hollywood</td>
+            <td>2019</td>
+            <td>Comedy, Drama</td>
+            <td>Quentin Tarantino</td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td>1917</td>
+            <td>2019</td>
+            <td>War, Drama</td>
+            <td>Sam Mendes</td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td>The Social Network</td>
+            <td>2010</td>
+            <td>Biography, Drama</td>
+            <td>David Fincher</td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td>Bohemian Rhapsody</td>
+            <td>2018</td>
+            <td>Biography, Music</td>
+            <td>Bryan Singer</td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td>Guardians of the Galaxy</td>
+            <td>2014</td>
+            <td>Action, Adventure</td>
+            <td>James Gunn</td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td>Get Out</td>
+            <td>2017</td>
+            <td>Thriller, Horror</td>
+            <td>Jordan Peele</td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td>A Quiet Place</td>
+            <td>2018</td>
+            <td>Horror, Drama</td>
+            <td>John Krasinski</td>
+          </tr>
+          <tr>
+            <td>38</td>
+            <td>The Revenant</td>
+            <td>2015</td>
+            <td>Adventure, Drama</td>
+            <td>Alejandro G. Iñárritu</td>
+          </tr>
+          <tr>
+            <td>39</td>
+            <td>Jaws</td>
+            <td>1975</td>
+            <td>Adventure, Thriller</td>
+            <td>Steven Spielberg</td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td>Casino Royale</td>
+            <td>2006</td>
+            <td>Action, Thriller</td>
+            <td>Martin Campbell</td>
+          </tr>
+          <tr>
+            <td>41</td>
+            <td>The Departed</td>
+            <td>2006</td>
+            <td>Crime, Thriller</td>
+            <td>Martin Scorsese</td>
+          </tr>
+          <tr>
+            <td>42</td>
+            <td>Alien</td>
+            <td>1979</td>
+            <td>Sci-Fi, Horror</td>
+            <td>Ridley Scott</td>
+          </tr>
+          <tr>
+            <td>43</td>
+            <td>The Prestige</td>
+            <td>2006</td>
+            <td>Drama, Mystery</td>
+            <td>Christopher Nolan</td>
+          </tr>
+          <tr>
+            <td>44</td>
+            <td>12 Years a Slave</td>
+            <td>2013</td>
+            <td>Biography, Drama</td>
+            <td>Steve McQueen</td>
+          </tr>
+          <tr>
+            <td>45</td>
+            <td>The Grand Budapest Hotel</td>
+            <td>2014</td>
+            <td>Comedy, Drama</td>
+            <td>Wes Anderson</td>
+          </tr>
+          <tr>
+            <td>46</td>
+            <td>The Irishman</td>
+            <td>2019</td>
+            <td>Crime, Drama</td>
+            <td>Martin Scorsese</td>
+          </tr>
+          <tr>
+            <td>47</td>
+            <td>Birdman</td>
+            <td>2014</td>
+            <td>Drama, Comedy</td>
+            <td>Alejandro G. Iñárritu</td>
+          </tr>
+          <tr>
+            <td>48</td>
+            <td>The Witch</td>
+            <td>2015</td>
+            <td>Horror, Drama</td>
+            <td>Robert Eggers</td>
+          </tr>
+          <tr>
+            <td>49</td>
+            <td>The Hateful Eight</td>
+            <td>2015</td>
+            <td>Western, Drama</td>
+            <td>Quentin Tarantino</td>
+          </tr>
+          <tr>
+            <td>50</td>
+            <td>Moonlight</td>
+            <td>2016</td>
+            <td>Drama</td>
+            <td>Barry Jenkins</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Aspzhr Web. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      // JavaScript untuk toggle menu
+      function toggleMenu() {
+        var navList = document.getElementById("nav-list");
+        navList.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
